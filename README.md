@@ -17,7 +17,7 @@ This project provisions an **AWS Lambda function** using **Terraform** to automa
 
 ## 🧱 Architecture
 
-```text
+---
                ┌─────────────┐
                │   User      │
                └─────┬───────┘
