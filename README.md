@@ -36,3 +36,17 @@ This project provisions an **AWS Lambda function** using **Terraform** to automa
                     │ moves files to
                     ▼
    incoming/<year>/<month>/<day>/filename.txt
+
+## 📁 Directory Structure
+---text
+.
+├── lambda.tf                 # All Terraform resources
+├── variables.tf              # Input variables
+├── outputs.tf                # Terraform outputs
+├── versions.tf              # Terraform version constraint
+├── lambda_functions/
+│   └── main.py               # Python Lambda logic
+├── lambda_code.zip           # Auto-generated ZIP from archive_file
+└── README.md
+
+
