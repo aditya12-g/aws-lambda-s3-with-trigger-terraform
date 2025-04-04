@@ -37,6 +37,8 @@ This project provisions an **AWS Lambda function** using **Terraform** to automa
                     ▼
    incoming/<year>/<month>/<day>/filename.txt
 
+---
+
 ## 📁 Directory Structure
 ---text
 .
