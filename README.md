@@ -45,7 +45,8 @@ terraform init
 # Apply the infrastructure
 terraform apply
 
----
+
+
 
 
 
