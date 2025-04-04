@@ -40,7 +40,7 @@ This project provisions an **AWS Lambda function** using **Terraform** to automa
 ---
 
 ## 📁 Directory Structure
----
+---bash
 .
 ├── lambda.tf                 # All Terraform resources
 ├── variables.tf              # Input variables
@@ -60,7 +60,7 @@ Python 3.11 (for writing/testing the Lambda locally)
 Git
 
 ### ⚙️ How to Deploy
----
+---bash
 git clone https://github.com/aditya12-g/aws-lambda-s3-with-trigger-terraform.git
 cd aws-lambda-s3-with-trigger-terraforrm.git
 terraform init
