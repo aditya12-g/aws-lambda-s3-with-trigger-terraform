@@ -50,12 +50,25 @@ This project provisions an **AWS Lambda function** using **Terraform** to automa
 │   └── main.py               # Python Lambda logic
 ├── lambda_code.zip           # Auto-generated ZIP from archive_file
 └── README.md
----
+
 
 ### 🛠️ Prerequisites
-
+---
 Terraform >= 1.6.6
 AWS CLI configured with credentials
 Python 3.11 (for writing/testing the Lambda locally)
 Git
+
+### ⚙️ How to Deploy
+---
+# 1. Clone the repo
+git clone https://github.com/aditya12-g/aws-lambda-s3-with-trigger-terraform.git
+cd aws-lambda-s3-with-trigger-terraform
+
+# 2. Initialize Terraform
+terraform init
+
+# 3. Review and apply changes
+terraform plan
+terraform apply
 
