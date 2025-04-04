@@ -47,27 +47,6 @@ terraform apply
 
 ---
 
-### 🧪 Requirements
-Terraform >= 1.6.6
-
-AWS CLI (configured with appropriate credentials)
-
-python 3.11
-
-Git
-
-zip (for packaging Lambda function)
----
-
-```bash
-### 🧹 Cleanup
-
-terraform destroy
----
-
-### 🙋‍♂️ Author
-Aditya G
-GitHub: @aditya12-g
 
 
 
