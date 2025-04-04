@@ -34,7 +34,7 @@ This project provisions an AWS Lambda function using Terraform that listens for 
 
 ## 🚀 Deployment Steps
 
-```bash
+---
 # Clone the repository
 git clone https://github.com/aditya12-g/aws-lambda-s3-with-trigger-terraform.git
 cd aws-lambda-s3-with-trigger-terraform
@@ -45,7 +45,11 @@ terraform init
 # Apply the infrastructure
 terraform apply
 
+---
+At last to see the results run this script name pre-setup-script.sh
+here i have attached screenshot of result 
 
+![image alt](https://github.com/aditya12-g/aws-lambda-s3-with-trigger-terraform/blob/main/Screenshot%20(30).png?raw=true)
 
 
 
