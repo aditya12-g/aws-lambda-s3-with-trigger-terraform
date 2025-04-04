@@ -40,7 +40,7 @@ This project provisions an **AWS Lambda function** using **Terraform** to automa
 ---
 
 ## 📁 Directory Structure
----text
+---
 .
 ├── lambda.tf                 # All Terraform resources
 ├── variables.tf              # Input variables
@@ -50,5 +50,12 @@ This project provisions an **AWS Lambda function** using **Terraform** to automa
 │   └── main.py               # Python Lambda logic
 ├── lambda_code.zip           # Auto-generated ZIP from archive_file
 └── README.md
+---
 
+### 🛠️ Prerequisites
+
+Terraform >= 1.6.6
+AWS CLI configured with credentials
+Python 3.11 (for writing/testing the Lambda locally)
+Git
 
